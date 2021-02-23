@@ -1,0 +1,7 @@
+body { background-color : green}
+h1 { border-radius: 25px; background-color: yellow; position: relative; width: 800px ; float: center}
+button { border-radius: 8px; background-color: blue; shape-outside: circle(25px); border-color: black ; width: 150px; height: 100px}
+h2{display: block; text-align: center;}
+#ys{float: left;border-radius: 70px; width: 230px; height: 60px; }
+#cs{float: right;border-radius: 70px; width: 230px;height: 60px; }
+#ins {position: relative;top : 800px;}
