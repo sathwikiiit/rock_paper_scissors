@@ -12,6 +12,7 @@ function user(choice) {
 		csc = csc + 1;
 		alert("You lose\n" + chr[user_choice/3 - 1] + "  " + chr[com_choice] );
 	}
+	else {alert("Balanced\n" + chr[user_choice/3 - 1] + "  " + chr[com_choice] );}
 	document.getElementById('ys').innerHTML = 'your score : ' + ysc;
 	document.getElementById('cs').innerHTML = 'com score : ' + csc;
 }
