@@ -6,7 +6,7 @@ function user(choice) {
 	var adit = user_choice + com_choice - 3
 	if (adit == 2 || adit == 3 || adit == 7) {
 		ysc = ysc + 1;
-		alert("You win\n" + chr[user_choice/3 - 1] + "  " +  chr[com_choice]);
+		alert("You Won \n" + chr[user_choice/3 - 1] + "  " +  chr[com_choice]);
 	}
 	else if (adit == 1 || adit == 5 || adit == 6) {
 		csc = csc + 1;
